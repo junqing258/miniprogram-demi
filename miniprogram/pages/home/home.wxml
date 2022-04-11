@@ -1,0 +1,5 @@
+<!-- pages/home/home.wxml -->
+<view>
+  <map class="map" longitude="{{userLocation.longitude}}" latitude="{{userLocation.latitude}}" markers="{{markers}}" scale="{{mapScale}}" controls="{{controls}}" polyline="{{polyline}}" show-location="{{true}}"></map>
+  <info-panel />
+</view>

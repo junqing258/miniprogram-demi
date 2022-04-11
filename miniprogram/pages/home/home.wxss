@@ -1,0 +1,6 @@
+/* pages/home/home.wxss */
+
+.map {
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,8 @@
+<!-- pages/home/components/InfoPanel.wxml -->
+<view class="wrapper info">
+  <view class="header"></view>
+  <view class="body">
+    <text>{{ userInfo.nickName }}</text>
+  </view>
+  <view class="footer"></view>
+</view>

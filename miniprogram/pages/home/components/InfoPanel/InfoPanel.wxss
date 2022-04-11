@@ -1,0 +1,15 @@
+/* pages/home/components/InfoPanel.wxss */
+
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+}
+
+.info {
+  width: 100vw;
+  height: 40vh;
+  background: white;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}

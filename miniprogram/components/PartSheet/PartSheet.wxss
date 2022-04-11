@@ -1,0 +1,9 @@
+/* components/PartSheet/PartSheet.wxss */
+
+.wrapper {
+  display: fixed;
+  bottom: 0;
+  z-index: 9;
+  width: 100vw;
+  height: fit-content;
+}
