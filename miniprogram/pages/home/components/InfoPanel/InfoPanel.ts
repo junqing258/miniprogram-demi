@@ -1,6 +1,6 @@
 // pages/home/components/InfoPanel.ts
 
-import connect from "../../../../redux/lib/connect";
+import { connect } from "../../../../redux/connect";
 import { ActionType, getUserLocation } from "../../../../redux/modules/common";
 import { isEmpty } from "../../../../utils/util";
 

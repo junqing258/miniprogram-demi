@@ -1,11 +1,10 @@
 // pages/home/home.ts
 import { isEmpty } from "../../utils/util";
-import connect from "../../redux/lib/connect";
+import { connect } from "../../redux/connect";
 import { ActionType, getUserLocation } from "../../redux/modules/common";
 
 const mapStateToProps = (state: any, options: any) => ({
   ...state.common,
-  ...options,
   hasUserInfo: !isEmpty(state.common.userInfo),
 });
 

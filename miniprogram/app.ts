@@ -1,14 +1,10 @@
-// app.ts
 import createStore from "./redux/store";
+import { provider } from "./redux/connect";
 
-type AppOption = TIAppOption & {
-  store: any;
-};
-
-App<AppOption>({
+App({
   globalData: {},
   onLaunch() {
-    this.store = createStore({});
+    provider.store = createStore({});
     // 登录
     wx.login({
       success: (res) => {

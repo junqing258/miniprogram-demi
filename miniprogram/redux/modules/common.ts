@@ -38,13 +38,12 @@ export const getUserProfile = async (dispatch: any, getState: any) => {
       });
     },
   });
-};
+}; 
 
 /**
- *
+ * 获取定位信息
  */
-export const getUserLocation = async (dispatch: any, getState: any) => {
-  // console.log('$$$$$ getState', getState())
+export const getUserLocation = async (dispatch: any, getState?: any) => {
   wx.getLocation({
     type: "gcj02",
     success: (res) => {

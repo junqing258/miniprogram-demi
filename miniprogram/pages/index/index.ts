@@ -1,6 +1,6 @@
 // index.ts
 // 获取应用实例
-import connect from "../../redux/lib/connect";
+import { connect } from "../../redux/connect";
 import { ActionType, getUserProfile } from "../../redux/modules/common";
 import { isEmpty } from "../../utils/util";
 
